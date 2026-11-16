@@ -1,7 +1,0 @@
-A marker nonterminal has an empty production and executes an action without consuming input; it preserves the accepted language.
-
-TAC for x = a + b * c - d:
-t1 = b * c
-t2 = a + t1
-t3 = t2 - d
-x = t3

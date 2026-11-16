@@ -1,3 +1,0 @@
-AST: (= a (+ b (* c d)))
-AST nodes: 7
-Estimated parse-tree nodes: 15
