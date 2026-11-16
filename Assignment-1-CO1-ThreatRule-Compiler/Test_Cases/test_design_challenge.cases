@@ -1,0 +1,1 @@
+T06 | hash_cve_url_feed.tr | SHA-256, CVE, and HTTPS URL | exit 0 and one token per special value

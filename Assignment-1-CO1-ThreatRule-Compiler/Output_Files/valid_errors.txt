@@ -1,0 +1,1 @@
+Expected result for valid_rules.tr: no lexical errors.

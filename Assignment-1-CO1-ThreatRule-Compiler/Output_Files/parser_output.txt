@@ -1,0 +1,3 @@
+Parser boundary:
+The current implementation emits lexical tokens only. A later parser would consume them to build:
+Rule(name=ssh_attack, condition=AND(EQ(src_ip,10.0.0.5), EQ(port,22)), action=ALERT(...))

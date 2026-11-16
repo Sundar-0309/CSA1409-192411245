@@ -1,0 +1,1 @@
+Expected result for boundary_cases.tr: no lexical errors.

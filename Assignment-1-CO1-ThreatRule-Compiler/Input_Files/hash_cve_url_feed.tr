@@ -1,0 +1,3 @@
+RULE cve_alert IF cve == CVE-2026-12345 THEN ALERT "CVE observed";
+RULE url_alert IF source_url == https://security.example.org/feed THEN ALERT "URL observed";
+RULE hash_alert IF sha256 == a3f5c7d9e1b3a5c7d9e1b3a5c7d9e1b3a5c7d9e1b3a5c7d9e1b3a5c7d9e1b3 THEN ALERT "Hash observed";

@@ -1,0 +1,2 @@
+T03 | invalid_rules.tr | invalid IP, unsupported character, unclosed string | non-zero exit and all errors reported
+T04 | invalid_feed.tr | malformed feed values | non-zero exit and scanning continues

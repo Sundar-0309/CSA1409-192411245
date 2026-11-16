@@ -1,0 +1,5 @@
+RULE minimum_port IF port == 0 THEN ALERT "minimum";
+RULE maximum_port IF port == 65535 THEN ALERT "maximum";
+RULE minimum_ip IF src_ip == 0.0.0.0 THEN ALERT "minimum ip";
+RULE maximum_ip IF src_ip == 255.255.255.255 THEN ALERT "maximum ip";
+RULE underscore_name IF sensor_name == "edge_01" THEN ALERT "underscore";

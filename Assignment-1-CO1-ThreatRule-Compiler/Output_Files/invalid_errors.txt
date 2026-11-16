@@ -1,0 +1,6 @@
+Expected recovery diagnostics for invalid_rules.tr:
+- IPv4 octet must be 0..255
+- unsupported character
+- unterminated string
+
+The scanner must continue beyond every listed error and then return a non-zero exit status.

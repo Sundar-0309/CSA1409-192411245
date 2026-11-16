@@ -1,0 +1,3 @@
+RULE malformed_cve IF cve == CVE-26-12 THEN ALERT "bad cve";
+RULE malformed_url IF source_url == htp://example.invalid THEN ALERT "bad URL scheme";
+RULE bad_hash IF sha256 == abcd1234 THEN ALERT "short hash";

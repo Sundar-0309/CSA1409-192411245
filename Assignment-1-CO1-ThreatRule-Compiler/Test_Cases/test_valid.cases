@@ -1,0 +1,2 @@
+T01 | valid_rules.tr | all baseline token classes | exit 0
+T02 | sample_rule.tr | one complete rule | exit 0

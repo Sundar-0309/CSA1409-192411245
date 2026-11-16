@@ -1,0 +1,4 @@
+Expected live-feed token classes:
+- CVE_ID for CVE-2026-12345
+- URL for HTTPS feed address
+- SHA256_HASH for a 64-character hexadecimal digest

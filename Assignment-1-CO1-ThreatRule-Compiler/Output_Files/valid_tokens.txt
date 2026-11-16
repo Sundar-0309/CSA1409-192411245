@@ -1,0 +1,15 @@
+Representative expected tokens for sample_rule.tr
+KEYWORD_RULE        RULE
+IDENTIFIER          ssh_attack
+KEYWORD_IF          IF
+IDENTIFIER          src_ip
+RELATIONAL_OP       ==
+IPV4_ADDRESS        10.0.0.5
+LOGICAL_AND         AND
+IDENTIFIER          port
+RELATIONAL_OP       ==
+INTEGER             22
+KEYWORD_THEN        THEN
+KEYWORD_ALERT       ALERT
+STRING              "SSH brute force"
+PUNCTUATION         ;

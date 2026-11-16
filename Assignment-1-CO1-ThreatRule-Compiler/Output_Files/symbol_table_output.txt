@@ -1,0 +1,7 @@
+Illustrative symbol-table entries from sample_rule.tr:
+ssh_attack
+src_ip
+port
+attempts
+
+Each identifier is installed once, even when it is seen repeatedly.

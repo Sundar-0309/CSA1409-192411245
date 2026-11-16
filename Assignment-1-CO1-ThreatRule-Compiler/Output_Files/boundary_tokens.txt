@@ -1,0 +1,5 @@
+Expected accepted boundary values:
+- IPv4 address 0.0.0.0
+- IPv4 address 255.255.255.255
+- integer 0
+- integer 65535

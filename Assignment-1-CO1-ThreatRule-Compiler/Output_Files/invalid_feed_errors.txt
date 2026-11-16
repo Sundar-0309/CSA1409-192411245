@@ -1,0 +1,1 @@
+Expected behaviour for invalid_feed.tr: malformed values are not promoted to CVE_ID, URL, or SHA256_HASH tokens; later input remains available for diagnostics.

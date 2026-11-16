@@ -1,0 +1,1 @@
+T05 | boundary_cases.tr | port 0, port 65535, IP 0.0.0.0, IP 255.255.255.255 | exit 0

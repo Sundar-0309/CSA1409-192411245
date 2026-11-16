@@ -1,0 +1,11 @@
+stateDiagram-v2
+    [*] --> Start
+    Start --> Identifier: letter or underscore
+    Identifier --> Identifier: letter digit underscore
+    Identifier --> AcceptIdentifier: delimiter lookahead
+    Start --> Digit: digit
+    Digit --> Digit: digit
+    Digit --> Dot: dot
+    Dot --> Digit: digit
+    Digit --> AcceptInteger: delimiter
+    Digit --> AcceptIPv4: fourth component validated
