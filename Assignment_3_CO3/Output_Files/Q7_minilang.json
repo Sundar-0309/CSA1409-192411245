@@ -1,0 +1,25 @@
+{
+  "symbols": {
+    "x": "int",
+    "a": "int",
+    "b": "int",
+    "c": "int",
+    "d": "int",
+    "average": "float"
+  },
+  "errors": [
+    "undeclared identifier: missing"
+  ],
+  "tac": [
+    "t1 = b * c",
+    "t2 = a + t1",
+    "t3 = t2 - d",
+    "x = t3",
+    "t1 = x / 2",
+    "average = t1"
+  ],
+  "asts": [
+    "x = a + b * c - d",
+    "average = x / 2"
+  ]
+}

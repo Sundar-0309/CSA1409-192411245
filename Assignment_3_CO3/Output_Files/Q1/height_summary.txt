@@ -1,0 +1,1 @@
+Height is computed bottom-up as 1 + max(child heights).

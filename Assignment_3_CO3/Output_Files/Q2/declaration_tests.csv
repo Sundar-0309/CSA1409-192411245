@@ -1,0 +1,3 @@
+input,symbols,errors
+"float a,b,c",a:b:c,float
+"int a; float a",a,duplicate declaration

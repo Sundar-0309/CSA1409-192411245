@@ -1,0 +1,11 @@
+Assignment 3 CO3 - Syntax-Directed Translation
+
+Q1: Use synthesized attributes to evaluate arithmetic expressions, annotate a parse tree, and calculate height.
+Q2: Use inherited attributes for typed declaration lists, a symbol table, and duplicate checking.
+Q3: Construct dependency graphs, produce a topological evaluation order, and detect cycles.
+Q4: Implement an infix-to-postfix syntax-directed translation scheme.
+Q5: Build and compare parse trees and abstract syntax trees using attributes.
+Q6: Explain marker nonterminals in bottom-up parsing and generate three-address code.
+Q7: Design a MiniLang translator for declarations, assignments, type checks, AST construction, and TAC.
+
+The full supplied PDF and DOCX contain the detailed marking rubric and pair-work responsibilities.

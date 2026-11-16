@@ -1,0 +1,14 @@
+Expression: 3 * (4 + 5) - 6 / 2
+Value: 24
+Height: 4
+Nodes: 9
+Annotated tree:
+- val=24
+  * val=27
+    number=3
+    + val=9
+      number=4
+      number=5
+  / val=3
+    number=6
+    number=2
