@@ -1,0 +1,3 @@
+Graph: {'T.type': ['L.in'], 'L.in': ['a.type', 'b.type'], 'a.type': [], 'b.type': []}
+Topological order: ['T.type', 'L.in', 'a.type', 'b.type']
+Cycle check: cycle detected
