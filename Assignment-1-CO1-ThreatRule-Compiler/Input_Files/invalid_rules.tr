@@ -1,0 +1,4 @@
+# Every bad line is reported and scanning continues.
+RULE bad_ip IF src_ip == 999.10.1.1 THEN ALERT "bad address";
+RULE bad_char IF value == @ THEN ALERT "bad character";
+RULE bad_string IF host == "not closed THEN ALERT "recovery";

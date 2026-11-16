@@ -1,0 +1,13 @@
+flowchart LR
+    A[Characters] --> B[Lexical analysis]
+    B --> C[Tokens]
+    C --> D[Syntax analysis]
+    D --> E[AST]
+    E --> F[Semantic analysis]
+    F --> G[Intermediate code]
+    G --> H[Optimisation]
+    H --> I[Target rule]
+    J[Symbol table] --- B
+    J --- F
+    K[Error handler] --- B
+    K --- D
